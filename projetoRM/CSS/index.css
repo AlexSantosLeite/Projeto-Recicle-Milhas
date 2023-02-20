@@ -1,0 +1,145 @@
+body {
+    background-color: #F7EF99;
+    color: #273746;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #FFA500;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #273746;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #FFF;
+}
+
+.hero {
+    background-color: #FFA500;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reci1 {
+    font-size: 64px;
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.milhas1 {
+    font-size: 28px;
+    color: #273746;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #FFF;
+    border: none;
+    padding: 10px 30px;
+    color: #273746;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #273746;
+    color: #FFF;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+.card ul li a {
+    color: #273746;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.card ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card ul li a:hover {
+    color: #E74C3C;
+} 
+
+
+footer {
+    bottom: 0;
+    background-color: #FFA500;
+    color: #273746;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
